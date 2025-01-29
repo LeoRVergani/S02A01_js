@@ -99,11 +99,52 @@ while(cont <= 10) {
 // ...
 // 7 x 10 = 70
 
+let tabuada = 1;
+
+while(tabuada <= 10) {
+    console.log(`7 x ${tabuada} = ${7 * tabuada}`);
+    tabuada++;
+
+}
+
 // 3. Use um laço while para somar de 1 até 999, apenas somando os números ímpares. Utilize um if para verificar se o número é ímpar.
+
+let somar = 0;
+let impar = 1;
+
+while(impar <= 999) {
+    if( impar % 2 != 0) {
+        somar = somar + impar;
+    }
+    impar++;
+}
+
+console.log(`A soma dos impares (1-999) é: ${somar}`)
 
 // 4. Crie um programa que conta quantos números entre 1 e 1000 são divisíveis por 9, mostre o número e ao final exiba o total de números divisíveis por 9.
 
+let total = 0;
+
+for (let i = 1; i <= 1000; i++) {
+    if(i % 9 == 0) {
+        console.log(i);
+        total++;
+    }
+}
+
+console.log(`Total: ${total}`);
+
 // 5. Faça a tabuada completa utilizando o loop for.
+
+for(let nTab = 1; nTab < 10; nTab++) {
+    console.log("-------------");
+    console.log("TABUADA DO", nTab);
+    console.log("-------------");
+
+    for (let multTab = 1; multTab <= 10; multTab++) {
+        console.log(nTab, "x", multTab, "=", nTab * multTab);
+    }
+}
 
 // 6. Use um laço for para imprimir na tela a série de Fibonacci até o décimo termo. A sequência de Fibonacci é formada pela sequência: 0,1,1,2,3,5,8,13,21,34,55.
 
