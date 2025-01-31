@@ -19,6 +19,7 @@
   "homepage": "https://github.com/LeoRVergani/S02A01_js#readme",
   "description": "",
   "dependencies": {
-    "cpf": "^2.0.1"
+    "cpf": "^2.0.1",
+    "express": "^4.21.2"
   }
 }
