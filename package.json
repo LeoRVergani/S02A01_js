@@ -1,5 +1,6 @@
 {
   "name": "s02a01_js",
+  "type": "module",
   "version": "1.0.0",
   "main": "atividade2701.js",
   "scripts": {
@@ -16,5 +17,8 @@
     "url": "https://github.com/LeoRVergani/S02A01_js/issues"
   },
   "homepage": "https://github.com/LeoRVergani/S02A01_js#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cpf": "^2.0.1"
+  }
 }
